@@ -12,7 +12,7 @@ Service must be "read-only tolerant" to one machine power-off
 (it means, that after switching off one machine you should be able to do GET requests anyway)
 
 <details>
-  <summary>Some pictures</summary>
+  <summary><strong>Some pictures</strong></summary>
 
   ![hardware](https://sun9-14.userapi.com/impg/FKI5PJBIaZTtLh9ToEReKZjei_UcgRQhtGfo4Q/27ktKUhreJo.jpg?size=1600x720&quality=96&sign=4fe16b8f191c23882d4f1e16a6e76fd1&type=album)
 
@@ -21,6 +21,9 @@ Service must be "read-only tolerant" to one machine power-off
   ![hardware_metrics](./readme_imgs/img3.png)
 
 </details>
+
+⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ 
+
 
 ## Deployment 
 
