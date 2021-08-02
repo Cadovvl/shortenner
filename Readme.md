@@ -14,13 +14,11 @@ Service must be "read-only tolerant" to one machine power-off
 <details>
   <summary>Some pictures</summary>
 
-  ![hardware](https://4.downloader.disk.yandex.ru/preview/d593c98e4da0f0490074d3b2e85dc36e3458d8c5c202ecae3b7aeaeb294c995e/inf/-M5Y61z5FOpEUtKUK0JdgIAKNjEJxGzMLNXAe205bJWeUWWtqf2rcdXznrG3pDMDQHbmxjNJ8XOf5sga8z-jpw%3D%3D?uid=256186706&filename=hardware.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=256186706&tknv=v2&size=3206x1874)
+  ![hardware](https://sun9-14.userapi.com/impg/FKI5PJBIaZTtLh9ToEReKZjei_UcgRQhtGfo4Q/27ktKUhreJo.jpg?size=1600x720&quality=96&sign=4fe16b8f191c23882d4f1e16a6e76fd1&type=album)
 
-  ![front](https://1.downloader.disk.yandex.ru/preview/d708658ab62fd98ddfeb581d2542847c606b2577045c9467a313f6624c2c9f53/inf/3se6iBW3ejn9Z0ivE7Z8pnSgxzaPACssmvTt5jg2raRat0jqmYlddnU1GSZ7qIowwNI1Xhl3A__N0qXcjbhBXQ%3D%3D?uid=256186706&filename=View.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=256186706&tknv=v2&size=3206x1874)
-
-  ![latency](https://4.downloader.disk.yandex.ru/preview/208618211ec75a661dd18fef78788a23b4d34f121b2e5cf893a52fac7ad03e0f/inf/9iGJRlVGAjW1fGs674tS1nSgxzaPACssmvTt5jg2raTIzk71TPuwcXKCVJbUbr7WZ8LOYp0C73F_0subz_-qWA%3D%3D?uid=256186706&filename=Latency.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=256186706&tknv=v2&size=3206x1874)
-
-  ![hardware](https://1.downloader.disk.yandex.ru/preview/8142cca100e7dcbb101a2e49aa2b9c1fe9f522b6371a810924e3accadc12fcbf/inf/teZahgrIgFiaRYbrUjD9i3SgxzaPACssmvTt5jg2raTerSZmSYFef2rLNjIQjY1ng0NYZdWxbpNNr2Q0A3HVdw%3D%3D?uid=256186706&filename=technicalMeasurements.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=256186706&tknv=v2&size=3206x1874)
+  ![front](./readme_imgs/img.png)
+  ![latency](./readme_imgs/img2.png)
+  ![hardware_metrics](./readme_imgs/img3.png)
 
 </details>
 
@@ -133,7 +131,7 @@ Suppose to work so far.
 
 Now our service supposed to look like this
 
-![Architecture](https://1.downloader.disk.yandex.ru/preview/d9588e267208b3b265199eb9ffdef7725ec5546d694432a89c37b70b7929e250/inf/jNZZoetgGw043gpOMQZl2IZHDj9hg4zV12MtxhOr0lTTaSndBTtkcPVQqlQ_XONjaLisqeM83W6KKFjvy9TMUg%3D%3D?uid=256186706&filename=Architecture.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=256186706&tknv=v2&size=3206x1874)
+![Architecture](./readme_imgs/arch.png)
 
-It's still far away from a good and reliable service, but pretty well start point
+It's still far away from a good and reliable service, but pretty well as a start point
 
