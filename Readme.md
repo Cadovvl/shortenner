@@ -22,8 +22,7 @@ Service must be "read-only tolerant" to one machine power-off
 
 </details>
 
-⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ 
-
+⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑ ⇑
 
 ## Deployment 
 
@@ -118,7 +117,8 @@ DB_HOST_MASTER=<ip_of_your_master>
 DB_HOST_REPLICA=<ip_of_your_replica>
 DB_PORT=5432
 ```
-- Copy `./shortenner/` directory to all your machines 
+- Copy `./shortenner/` directory to all your machines
+- On one machine apply migrations: `sudo docker-compose exec web python manage.py migrate --noinput`
 - Go to `shortenner` directory on every machine, and run `sudo docker-compose up -d`
 
 Everything supposed to work so far. You can test it by going on `<host_name>.local:8000` 
