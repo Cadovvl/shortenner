@@ -1,0 +1,38 @@
+version: '3.3'
+
+volumes:
+  postgres_data:
+
+services:
+  master:
+    restart: always
+    image: postgres:latest
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+      - ./my-postgres-master.conf:/etc/postgresql/postgresql.conf
+      - ./pg_hba.master.conf:/etc/postgresql/pg_hba.conf
+      - ./my-postgres-master.conf:/var/lib/postgresql/data/postgresql.conf
+      - ./pg_hba.master.conf:/var/lib/postgresql/data/pg_hba.conf
+    env_file:
+      - ./.env.db
+
+    ports:
+      - "5432:5432"
+
+  replica:
+    restart: always
+    image: postgres:latest
+    volumes:
+      - ./replica_data:/var/lib/postgresql/data/
+      - ./my-postgres.conf:/etc/postgresql/postgresql.conf
+      - ./pg_hba.conf:/etc/postgresql/pg_hba.conf
+      - ./my-postgres.conf:/var/lib/postgresql/data/postgresql.conf
+      - ./pg_hba.conf:/var/lib/postgresql/data/pg_hba.conf
+    env_file:
+      - ./.env.db
+
+    ports:
+      - "5432:5432"
+
+
+
